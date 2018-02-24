@@ -20,7 +20,7 @@
 <body>
 
   <header role="banner">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
       <div class="container">
         <a class="navbar-brand" href="index.html">Bio<span>Hack</span>  </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" data-target="#navbarToggle" aria-label="Toggle navigation">
@@ -36,9 +36,6 @@
               <a class="nav-link" href="#sponsors">Sponsors</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#application">Application</a>
-            </li>
-            <li class="nav-item">
               <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
@@ -47,22 +44,7 @@
     </nav>
   </header>
 
-  <!-- <section id="home" class="home-slider owl-carousel">
-    <div class="slider-item" style="background-image: url('img/slider-2.jpg');">
-
-      <div class="container">
-        <div class="row slider-text align-items-center">
-          <div class="col-md-7 col-sm-12 element-animate">
-            <h1>We Care For You</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi unde impedit, necessitatibus, soluta sit quam minima expedita atque corrupti reiciendis.</p>
-          </div>
-        </div>
-      </div>
-
-    </div>
-
-  </section> -->
-  <div class="homepage-hero-module">
+  <div id="home" class="homepage-hero-module">
     <div class="hero-text hero">
       <div class="row">
         <div class="col-md-12">
@@ -139,7 +121,7 @@
       </div>
       <div class="row align-items-center">
         <div class="col-md-12">
-          <p>
+          <p class="lead">
             BioHack focuses on an event where students can create medically innovative projects and technologies with the freedom of their creativity. Unlike other hackathons, we promote bioengineering related projects as the central aspect of the event.
           </p>​
         </div>
@@ -200,21 +182,22 @@
   <section id="sponsors" class="section bg-light">
     <div class="container">
       <div class="row justify-content-center mb-5 element-animate">
-        <div class="col-md-8 text-center mb-5">
+        <div class="col-md-12 text-center mb-5">
           <h2 class="text-uppercase heading border-bottom mb-4">Sponsors</h2>
           <p class="mb-5 lead">
             <a href="docs/biohack_sponsorship_packet_2018_final.pdf">Sponsorship Package</a>
           </p>
-          <div class="row">
-            <img class="sponsor col-md-3" src="img/swe.png" alt="">
-            <img class="sponsor col-md-6" src="img/bcoe.png" alt="">
+          <div class="row d-flex justify-content-around">
+            <img class="sponsor half" src="img/swe.png" alt="SWE">
+            <img class="sponsor half mb-5" src="img/bmes.jpg" alt="BMES">
+            <img class="sponsor full" src="img/bcoe.png" alt="BCOE">
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="cover_1" style="background-image: url(img/bg_1.jpg);">
+  <section id="contact" class="cover_1" style="background-image: url(img/bg_1.jpg);">
     <div class="container">
       <div class="row text-center justify-content-center">
         <div class="col-md-10">
@@ -241,10 +224,8 @@
   <script src="js/jquery-3.2.1.min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
-  <script src="js/owl.carousel.min.js"></script>
-  <script src="js/bootstrap-datepicker.js"></script>
-  <script src="js/jquery.timepicker.min.js"></script>
   <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
   <script src="js/main.js"></script>
 </body>
 

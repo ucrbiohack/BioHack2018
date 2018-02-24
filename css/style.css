@@ -836,5 +836,9 @@ html, body {
   margin-bottom: 0px;
 }
 .sponsor {
-  width: 30%;
+    max-height: 100px;
+}
+.sticky-top {
+    position: fixed;
+    width: 100%;
 }
